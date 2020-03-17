@@ -1,0 +1,49 @@
+.hero-title {
+    font-family: 'Muli', sans-serif !important;
+    font-size: 50px;
+}
+
+.hero-subtitle {
+    font-size: 22px;
+}
+
+.bullets {
+    line-height: 25px;
+}
+
+.skilltile {
+    background: #0f132380;
+}
+
+.firstSlide .cursorMain {
+    opacity: 1 !important;
+    transition: 0.25s;
+}
+
+.social-circles li a svg {
+    width: 20px !important;
+    height: 20px !important;
+    
+}
+
+.cursorMain {
+    opacity: 0;
+}
+
+.timelineshift {
+    transform: rotate(135deg);
+}
+
+.custom-cell {
+    padding: 20px 30px;
+    border: 1px solid rgba(255,255,255,.3);
+}
+@media (max-width:500px) {
+    .hero-title {
+        font-size: 24px !important;
+    }
+
+    .hero-subtitle {
+        font-size: 12px;
+    }
+}
